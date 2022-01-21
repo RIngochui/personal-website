@@ -38,7 +38,7 @@ const Logo = () => {
   return (
     <LogoBox>
       <Image
-        src={useColorModeValue("/appleDark.png", "/apple.png")}
+        src={useColorModeValue("/personal-website/appleDark.png", "/personal-website/apple.png")}
         layout='fixed'
         boxSize="25px"
         alt="logo"
