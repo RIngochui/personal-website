@@ -90,10 +90,10 @@ const Main = () => {
             My name is Ringo Chui and I am a Software Developer from Toronto,
             Ontario. I have recieved a diploma in Computer Engineering
             Technology from Seneca College and am currently working to get a
-            bachelor's degree in Computer Science at York University. I am very
+            bachelor&apos;s degree in Computer Science at York University. I am very
             passinate about the world of technology, I enjoy playing around with
-            computers whether it'd be with software or hardware. In my free time
-            you'll find me play video games with the boys, going out and
+            computers whether it&apos;d be with software or hardware. In my free time
+            you&apos;ll find me play video games with the boys, going out and
             shooting some hoops or fooling around a little in Photoshop or
             Premiere Pro.
           </Text>
