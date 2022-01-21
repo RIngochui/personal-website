@@ -5,5 +5,6 @@ const nextConfig = {
 }
 
 module.exports = {
-  nextConfig, 
+  nextConfig,
+  assetPrefix:'personal-website'
 }
