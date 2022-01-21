@@ -6,6 +6,8 @@ const nextConfig = {
 
 module.exports = {
   nextConfig, 
-  basePath: '/ringochui',
-  assetPrefix: '/ringochui/',
+  basePath: '/personal-website',
+  assetPrefix: '/personal-website/',
 }
+
+ 
