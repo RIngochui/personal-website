@@ -24,7 +24,7 @@ const Main = () => {
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Ringo Chui</title>
-        <link rel="shortcut icon" href="/favicon.ico" />
+        <link rel="shortcut icon" href="favicon.ico" />
       </Head>
       <Container maxWidth="container.md" pt={12} pb={14}>
         <Box
@@ -49,7 +49,7 @@ const Main = () => {
               <br />
               ( Student / Developer / Graphic Designer )
             </Text>
-            <a href="/resume.pdf" download="ringo-chui-resume.pdf">
+            <a href="resume.pdf" download="ringo-chui-resume.pdf">
               <Button bg={useColorModeValue("gray.300", "red.600")} m={5} p={5}>
                 résumé here
               </Button>
