@@ -69,7 +69,7 @@ const Main = () => {
               maxWidth="150px"
               display="incline-block"
               borderRadius="full"
-              src="/pfp.png"
+              src="pfp.png"
               alt="Profile Picture"
               layout="fixed"
             ></Image>
@@ -140,7 +140,7 @@ const Main = () => {
               width="auto"
               height="auto"
               display="incline-block"
-              src="/coding.gif"
+              src="coding.gif"
               alt="Profile Picture"
               layout="fixed"
             ></Image>
