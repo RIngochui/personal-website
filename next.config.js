@@ -5,5 +5,7 @@ const nextConfig = {
 }
 
 module.exports = {
-  nextConfig
+  nextConfig,
+  basePath: '/personal-website',
+  assetPrefix: '/personal-website/'
 }
