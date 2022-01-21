@@ -1,5 +1,4 @@
-import { Text, useColorModeValue } from "@chakra-ui/react";
-import Image from 'next/image'
+import { Text, useColorModeValue, Image } from "@chakra-ui/react";
 import styled from "@emotion/styled";
 
 const LogoBox = styled.span`
@@ -41,8 +40,7 @@ const Logo = () => {
       <Image
         src={useColorModeValue("/appleDark.png", "/apple.png")}
         layout='fixed'
-        height={20}
-        width={20}
+        boxSize="25px"
         alt="logo"
       ></Image>
       <Text
