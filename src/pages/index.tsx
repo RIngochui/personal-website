@@ -46,8 +46,7 @@ const Main = () => {
               Born: March 12, 1999
               <br />
               Resides in: Toronto, Ontario
-              <br />
-              ( Student / Developer / Graphic Designer )
+              <br />( Student / Developer / Graphic Designer )
             </Text>
             <a href="resume.pdf" download="ringo-chui-resume.pdf">
               <Button bg={useColorModeValue("gray.300", "red.600")} m={5} p={5}>
@@ -60,10 +59,12 @@ const Main = () => {
             mt={{ base: 4, mt: 0 }}
             ml={{ md: 6 }}
             align="center"
+            flexWarp="wrap"
           >
             <Image
-              borderColor={useColorModeValue("gray.500", "whiteAlpha.800")}
-              borderWidth={4}
+              borderColor={useColorModeValue("gray.300", "whiteAlpha.800")}
+              filter={useColorModeValue("drop-shadow(0 0 0.75rem gray)", "")}
+              borderWidth={5}
               m={5}
               borderStyle="solid"
               maxWidth="150px"
@@ -90,12 +91,12 @@ const Main = () => {
             My name is Ringo Chui and I am a Software Developer from Toronto,
             Ontario. I have recieved a diploma in Computer Engineering
             Technology from Seneca College and am currently working to get a
-            bachelor&apos;s degree in Computer Science at York University. I am very
-            passinate about the world of technology, I enjoy playing around with
-            computers whether it&apos;d be with software or hardware. In my free time
-            you&apos;ll find me play video games with the boys, going out and
-            shooting some hoops or fooling around a little in Photoshop or
-            Premiere Pro.
+            bachelor&apos;s degree in Computer Science at York University. I am
+            very passinate about the world of technology, I enjoy playing around
+            with computers whether it&apos;d be with software or hardware. In my
+            free time you&apos;ll find me play video games with the boys, going
+            out and shooting some hoops or fooling around a little in Photoshop
+            or Premiere Pro.
           </Text>
         </Section>
 
@@ -131,10 +132,11 @@ const Main = () => {
             align="center"
           >
             <Image
-              borderColor={useColorModeValue("gray.500", "whiteAlpha.800")}
-              borderWidth={2}
+              borderColor={useColorModeValue("gray.300", "whiteAlpha.800")}
               borderRadius="lg"
-              m={3}
+              borderWidth={5}
+              m={5}
+              filter={useColorModeValue("drop-shadow(0 0 0.75rem gray)", "")}
               borderStyle="solid"
               maxWidth="500px"
               width="auto"
@@ -158,7 +160,7 @@ const Main = () => {
           >
             Familiar with the following:
           </Heading>
-          <Box display={{ md: "flex" }}>
+          <Box display={{ md: "flex" }} flexWarp="wrap">
             <Box flexGrow={1}>
               <Heading as="h3" mt={2} size="sm" mb={4}>
                 Languages
@@ -227,9 +229,11 @@ const Main = () => {
             <GridItem
               GridItem
               rowSpan={2}
-              colSpan={3}
+              colSpan={1}
               textAlign="center"
+              textColor={useColorModeValue("red.600", "")}
               bg={useColorModeValue("gray.300", "red.600")}
+              filter={useColorModeValue("drop-shadow(0 0 0.25rem red)", "")}
               borderRadius={10}
             >
               <a href="https://github.com/ArmyaAli/Squirrel-Glider1012">
@@ -240,39 +244,47 @@ const Main = () => {
             </GridItem>
 
             <GridItem
-              colSpan={1}
+              colSpan={2}
               bg={useColorModeValue("gray.300", "orange.600")}
+              textColor={useColorModeValue("orange.600", "")}
+              filter={useColorModeValue("drop-shadow(0 0 0.25rem orange)", "")}
               textAlign="center"
               borderRadius={10}
+              overflow="hidden"
             >
-              <a href="https://youtu.be/nwk44ECAk_A">
+
+              <a href="https://github.com/RIngochui/BattleShipPython">
                 <Button width="100%" height="100%">
-                  Self-Driving RC Car
+                BattleShipPython
                 </Button>
               </a>
             </GridItem>
 
             <GridItem
-              colSpan={1}
-              bg={useColorModeValue("gray.300", "yellow.600")}
-              textAlign="center"
-              borderRadius={10}
-            >
-              <a href="https://github.com/RIngochui/BattleShipPython">
-                <Button width="100%" height="100%">
-                  BattleShipPython
-                </Button>
-              </a>
-            </GridItem>
-            <GridItem
               colSpan={2}
-              bg={useColorModeValue("gray.300", "green.600")}
+              bg={useColorModeValue("gray.300", "yellow.600")}
+              textColor={useColorModeValue("yellow.600", "")}
+              filter={useColorModeValue("drop-shadow(0 0 0.25rem yellow)", "")}
               textAlign="center"
               borderRadius={10}
             >
               <a href="https://github.com/ArmyaAli/music-quiz">
                 <Button width="100%" height="100%">
                   Music Quiz
+                </Button>
+              </a>
+            </GridItem>
+            <GridItem
+              colSpan={4}
+              bg={useColorModeValue("gray.300", "green.600")}
+              textColor={useColorModeValue("green.600", "")}
+              filter={useColorModeValue("drop-shadow(0 0 0.25rem green)", "")}
+              textAlign="center"
+              borderRadius={10}
+            >
+              <a href="https://youtu.be/nwk44ECAk_A">
+                <Button width="100%" height="100%">
+                  Self-Driving RC Car
                 </Button>
               </a>
             </GridItem>
