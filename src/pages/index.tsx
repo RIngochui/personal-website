@@ -233,7 +233,7 @@ const Main = () => {
               textAlign="center"
               textColor={useColorModeValue("red.600", "")}
               bg={useColorModeValue("gray.300", "red.600")}
-              filter={useColorModeValue("drop-shadow(0 0 0.25rem red)", "")}
+              filter={useColorModeValue("drop-shadow(0 0 0.30rem red)", "")}
               borderRadius={10}
             >
               <a href="https://github.com/ArmyaAli/Squirrel-Glider1012">
@@ -247,7 +247,7 @@ const Main = () => {
               colSpan={2}
               bg={useColorModeValue("gray.300", "orange.600")}
               textColor={useColorModeValue("orange.600", "")}
-              filter={useColorModeValue("drop-shadow(0 0 0.25rem orange)", "")}
+              filter={useColorModeValue("drop-shadow(0 0 0.30rem DarkOrange)", "")}
               textAlign="center"
               borderRadius={10}
               overflow="hidden"
@@ -264,7 +264,7 @@ const Main = () => {
               colSpan={2}
               bg={useColorModeValue("gray.300", "yellow.600")}
               textColor={useColorModeValue("yellow.600", "")}
-              filter={useColorModeValue("drop-shadow(0 0 0.25rem yellow)", "")}
+              filter={useColorModeValue("drop-shadow(0 0 0.30rem DarkGoldenRod)", "")}
               textAlign="center"
               borderRadius={10}
             >
@@ -278,7 +278,7 @@ const Main = () => {
               colSpan={4}
               bg={useColorModeValue("gray.300", "green.600")}
               textColor={useColorModeValue("green.600", "")}
-              filter={useColorModeValue("drop-shadow(0 0 0.25rem green)", "")}
+              filter={useColorModeValue("drop-shadow(0 0 0.30rem green)", "")}
               textAlign="center"
               borderRadius={10}
             >
