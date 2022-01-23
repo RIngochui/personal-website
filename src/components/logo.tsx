@@ -20,13 +20,14 @@ const LogoBox = styled.span`
         transform-origin: center center;
     }
     15% {
-        transform: scale(1, 1) rotate(5deg);
+        transform: scale(1, 1)
     }
     40% {
-        transform: scale(0.75, 0.95) rotate(10deg);
+      transform: scale(0.95, 0.65) rotate(5deg);
+
     }
     75% {
-      transform: scale(0.95, 0.75) rotate(5deg);
+      transform: scale(0.75, 0.95) rotate(10deg);
     }
     100% {
         transform: scale(1, 1) rotate(0deg);
@@ -40,7 +41,7 @@ const Logo = () => {
       <Image
         src={useColorModeValue("appleDark.png", "apple.png")}
         layout='fixed'
-        boxSize="25px"
+        boxSize="35px"
         alt="logo"
       ></Image>
       <Text
@@ -48,6 +49,7 @@ const Logo = () => {
         fontFamily="M PLUS Rounded 1c"
         fontWeight="bold"
         fontSize='2xl'
+        pt={2}
         ml={3}
       >
         Ringo Chui

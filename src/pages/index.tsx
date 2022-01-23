@@ -33,6 +33,7 @@ const Main = () => {
           p={3}
           mb={6}
           align="center"
+          fontWeight={650}
         >
           Hello, I am a computer science student currently studying at York
           University.

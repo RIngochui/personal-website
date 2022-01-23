@@ -6,7 +6,7 @@ const NavBar = () => {
   const {toggleColorMode} = useColorMode();
   return (
     <div>
-      <Logo/>
+      <Logo />
       <IconButton aria-label="toggle darkmode" icon={<SunIcon />} onClick={toggleColorMode} float='right' m={3}/>
     </div>
   );
