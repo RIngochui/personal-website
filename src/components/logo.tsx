@@ -23,10 +23,10 @@ const LogoBox = styled.span`
         transform: scale(1, 1) rotate(5deg);
     }
     40% {
-        transform: scale(0.75, 0.75) rotate(10deg);
+        transform: scale(0.75, 0.95) rotate(10deg);
     }
     75% {
-      transform: scale(1, 1) rotate(5deg);
+      transform: scale(0.95, 0.75) rotate(5deg);
     }
     100% {
         transform: scale(1, 1) rotate(0deg);
@@ -47,7 +47,7 @@ const Logo = () => {
         color={useColorModeValue("gray.800", "whiteAlpha.900")}
         fontFamily="M PLUS Rounded 1c"
         fontWeight="bold"
-        fontSize='lg'
+        fontSize='2xl'
         ml={3}
       >
         Ringo Chui

@@ -59,7 +59,7 @@ const Main = () => {
             mt={{ base: 4, mt: 0 }}
             ml={{ md: 6 }}
             align="center"
-            flexWarp="wrap"
+            flexwarp="wrap"
           >
             <Image
               borderColor={useColorModeValue("gray.300", "whiteAlpha.800")}
@@ -143,7 +143,7 @@ const Main = () => {
               height="auto"
               display="incline-block"
               src="coding.gif"
-              alt="Profile Picture"
+              alt="coding gif"
               layout="fixed"
             ></Image>
           </Box>
@@ -160,7 +160,7 @@ const Main = () => {
           >
             Familiar with the following:
           </Heading>
-          <Box display={{ md: "flex" }} flexWarp="wrap">
+          <Box display={{ md: "flex" }} flexwarp="wrap">
             <Box flexGrow={1}>
               <Heading as="h3" mt={2} size="sm" mb={4}>
                 Languages
