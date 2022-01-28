@@ -95,7 +95,7 @@ const Main = () => {
             bachelor&apos;s degree in Computer Science at York University. I am
             very passinate about the world of technology, I enjoy playing around
             with computers whether it&apos;d be with software or hardware. In my
-            free time you&apos;ll find me play video games with the boys, going
+            free time you&apos;ll find me playing video games with the boys, going
             out and shooting some hoops or fooling around a little in Photoshop
             or Premiere Pro.
           </Text>
