@@ -93,11 +93,11 @@ const Main = () => {
             Ontario. I have received a diploma in Computer Engineering
             Technology from Seneca College and am currently working to get a
             bachelor&apos;s degree in Computer Science at York University. I am
-            very passionate about the world of technology, I enjoy playing around
-            with computers whether it&apos;d be with software or hardware. In my
-            free time you&apos;ll find me playing video games with my friends, going
-            out and shooting some hoops or fooling around in Photoshop
-            or Premiere Pro.
+            very passionate about the world of technology, I enjoy playing
+            around with computers whether it&apos;d be with software or
+            hardware. In my free time you&apos;ll find me playing video games
+            with my friends, going out and shooting some hoops or fooling around
+            in Photoshop or Premiere Pro.
           </Text>
         </Section>
 
@@ -132,21 +132,26 @@ const Main = () => {
             ml={{ md: 6 }}
             align="center"
           >
-            <Image
-              borderColor={useColorModeValue("gray.300", "whiteAlpha.800")}
-              borderRadius="lg"
-              borderWidth={5}
-              m={5}
-              filter={useColorModeValue("drop-shadow(0 0 0.75rem gray)", "")}
-              borderStyle="solid"
-              maxWidth="500px"
-              width="auto"
-              height="auto"
-              display="incline-block"
-              src="coding.gif"
-              alt="coding gif"
-              layout="fixed"
-            ></Image>
+            <a
+              title="Click to play Squirrel Glider!"
+              href="https://armyaali.github.io/Squirrel-Glider1012/"
+            >
+              <Image
+                borderColor={useColorModeValue("gray.300", "whiteAlpha.800")}
+                borderRadius="lg"
+                borderWidth={5}
+                m={5}
+                filter={useColorModeValue("drop-shadow(0 0 0.75rem gray)", "")}
+                borderStyle="solid"
+                maxWidth="500px"
+                width="auto"
+                height="auto"
+                display="incline-block"
+                src="coding.gif"
+                alt="coding gif"
+                layout="fixed"
+              ></Image>
+            </a>
           </Box>
         </Box>
         <Section delay={0.1} duration={1}>
@@ -248,15 +253,17 @@ const Main = () => {
               colSpan={2}
               bg={useColorModeValue("gray.300", "orange.600")}
               textColor={useColorModeValue("orange.600", "")}
-              filter={useColorModeValue("drop-shadow(0 0 0.30rem DarkOrange)", "")}
+              filter={useColorModeValue(
+                "drop-shadow(0 0 0.30rem DarkOrange)",
+                ""
+              )}
               textAlign="center"
               borderRadius={10}
               overflow="hidden"
             >
-
               <a href="https://github.com/RIngochui/BattleShipPython">
                 <Button width="100%" height="100%">
-                BattleShipPython
+                  BattleShipPython
                 </Button>
               </a>
             </GridItem>
@@ -265,7 +272,10 @@ const Main = () => {
               colSpan={2}
               bg={useColorModeValue("gray.300", "yellow.600")}
               textColor={useColorModeValue("yellow.600", "")}
-              filter={useColorModeValue("drop-shadow(0 0 0.30rem DarkGoldenRod)", "")}
+              filter={useColorModeValue(
+                "drop-shadow(0 0 0.30rem DarkGoldenRod)",
+                ""
+              )}
               textAlign="center"
               borderRadius={10}
             >
