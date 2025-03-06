@@ -35,8 +35,7 @@ const Main = () => {
           align="center"
           fontWeight={650}
         >
-          Hello, I am a computer science student currently studying at York
-          University.
+          Hello, I am a software developer currently working at Score Media and Gaming Inc.
         </Box>
         <Box display={{ md: "flex" }}>
           <Box flexGrow={1}>
@@ -47,9 +46,9 @@ const Main = () => {
               Born: March 12, 1999
               <br />
               Resides in: Toronto, Ontario
-              <br />( Student / Developer / Graphic Designer )
+              <br />( Software Developer )
             </Text>
-            <a href="Resume 2025.docx" download="ringo-chui-resume.pdf">
+            <a href="resume_2025.pdf" download="ringo-chui-resume.pdf">
               <Button bg={useColorModeValue("gray.300", "red.600")} m={5} p={5}>
                 résumé here
               </Button>
@@ -89,15 +88,16 @@ const Main = () => {
             About Me
           </Heading>
           <Text fontSize="sm">
-            My name is Ringo Chui and I am a Software Developer from Toronto,
-            Ontario. I have received a diploma in Computer Engineering
-            Technology from Seneca College and am currently working to get a
-            bachelor&apos;s degree in Computer Science at York University. I am
-            very passionate about the world of technology, I enjoy playing
-            around with computers whether it&apos;d be with software or
-            hardware. In my free time you&apos;ll find me playing video games
-            with my friends, going out and shooting some hoops or fooling around
-            in Photoshop or Premiere Pro.
+            Dynamic software developer with over 3 years of experience, recognized 
+            for exceptional problem-solving skills and a commitment to fostering 
+            collaborative relationships. Proven ability to adapt swiftly to new 
+            challenges, driving team success and delivering impactful results. 
+            Core competencies include software development, client engagement, 
+            and agile methodologies. I have received an advanced diploma in 
+            Computer Engineering Technology from Seneca College and a bachelor&apos;s
+            degree in Computer Science at York University. In my free time you&apos;ll
+            find me at the gym, playing video games with my friends, going out and 
+            shooting some hoops or fooling around in Photoshop or Premiere Pro.
           </Text>
         </Section>
 
@@ -115,14 +115,13 @@ const Main = () => {
                 Interests
               </Heading>
               <UnorderedList>
-                <ListItem>Front-End Design</ListItem>
-                <ListItem>Graphic Design</ListItem>
-                <ListItem>Web Applications</ListItem>
+                <ListItem>Full Stack Development</ListItem>
                 <ListItem>Building Computers</ListItem>
+                <ListItem>Graphic Design</ListItem>
                 <ListItem>Video Edits</ListItem>
                 <ListItem>Camping</ListItem>
                 <ListItem>Basketball</ListItem>
-                <ListItem>VolleyBall</ListItem>
+                <ListItem>Weight Lifting</ListItem>
               </UnorderedList>
             </Section>
           </Box>
@@ -174,11 +173,11 @@ const Main = () => {
               <UnorderedList listStyleType={"none"}>
                 <ListItem>C, C++, C#</ListItem>
                 <ListItem>Python</ListItem>
+                <ListItem>Elixir</ListItem>
                 <ListItem>Java</ListItem>
                 <ListItem>JavaScript/TypeScript</ListItem>
                 <ListItem>CSS/HTML</ListItem>
                 <ListItem>SQL</ListItem>
-                <ListItem>Bash</ListItem>
               </UnorderedList>
             </Box>
             <Box flexGrow={1}>
@@ -187,10 +186,9 @@ const Main = () => {
               </Heading>
               <UnorderedList listStyleType={"none"}>
                 <ListItem>Git</ListItem>
-                <ListItem>SQLite</ListItem>
-                <ListItem>Oracle SQL Developer</ListItem>
-                <ListItem>PostMan</ListItem>
-                <ListItem>Node.JS</ListItem>
+                <ListItem>Redis</ListItem>
+                <ListItem>Docker</ListItem>
+                <ListItem>Kubernetes</ListItem>
                 <ListItem>Figma</ListItem>
                 <ListItem>Photoshop</ListItem>
                 <ListItem>Premiere Pro</ListItem>
@@ -204,6 +202,8 @@ const Main = () => {
                 <ListItem>React</ListItem>
                 <ListItem>Express</ListItem>
                 <ListItem>Next.JS</ListItem>
+                <ListItem>Node.JS</ListItem>
+                <ListItem>Phoenix Liveview</ListItem>
                 <ListItem>Chakra UI</ListItem>
                 <ListItem>ASP.NET</ListItem>
               </UnorderedList>
