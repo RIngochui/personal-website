@@ -49,7 +49,7 @@ const Main = () => {
               Resides in: Toronto, Ontario
               <br />( Student / Developer / Graphic Designer )
             </Text>
-            <a href="resume.pdf" download="ringo-chui-resume.pdf">
+            <a href="Resume 2025.docx" download="ringo-chui-resume.pdf">
               <Button bg={useColorModeValue("gray.300", "red.600")} m={5} p={5}>
                 résumé here
               </Button>
