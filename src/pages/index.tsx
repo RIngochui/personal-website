@@ -32,10 +32,11 @@ const Main = () => {
           bg={useColorModeValue("gray.300", "red.600")}
           p={3}
           mb={6}
-          align="center"
+          textAlign="center"
           fontWeight={650}
         >
-          Hello, I am a software developer currently working at Score Media and Gaming Inc.
+          Hello, I am a software developer currently working at Score Media and
+          Gaming Inc.
         </Box>
         <Box display={{ md: "flex" }}>
           <Box flexGrow={1}>
@@ -48,7 +49,7 @@ const Main = () => {
               Resides in: Toronto, Ontario
               <br />( Software Developer )
             </Text>
-            <a href="resume_2025.pdf" download="ringo-chui-resume.pdf">
+            <a href="Resume 2026 VERSION 2.docx" download="ringo-chui-resume.pdf">
               <Button bg={useColorModeValue("gray.300", "red.600")} m={5} p={5}>
                 résumé here
               </Button>
@@ -58,8 +59,8 @@ const Main = () => {
             flexShrink={0}
             mt={{ base: 4, mt: 0 }}
             ml={{ md: 6 }}
-            align="center"
-            flexwarp="wrap"
+            textAlign="center"
+            flexWrap="wrap"
           >
             <Image
               borderColor={useColorModeValue("gray.300", "whiteAlpha.800")}
@@ -67,13 +68,14 @@ const Main = () => {
               borderWidth={5}
               m={5}
               borderStyle="solid"
-              maxWidth="150px"
-              display="incline-block"
+              width="150px"
+              height="150px"
+              objectFit="cover"
+              display="inline-block"
               borderRadius="full"
-              src="pfp.png"
+              src="pfp.jpg"
               alt="Profile Picture"
-              layout="fixed"
-            ></Image>
+            />
           </Box>
         </Box>
         <Section delay={0.1} duration={1}>
@@ -88,16 +90,23 @@ const Main = () => {
             About Me
           </Heading>
           <Text fontSize="sm">
-            Dynamic software developer with over 3 years of experience, recognized 
-            for exceptional problem-solving skills and a commitment to fostering 
-            collaborative relationships. Proven ability to adapt swiftly to new 
-            challenges, driving team success and delivering impactful results. 
-            Core competencies include software development, client engagement, 
-            and agile methodologies. I have received an advanced diploma in 
-            Computer Engineering Technology from Seneca College and a bachelor&apos;s
-            degree in Computer Science at York University. In my free time you&apos;ll
-            find me at the gym, playing video games with my friends, going out and 
-            shooting some hoops or fooling around in Photoshop or Premiere Pro.
+            I’m a software developer with over 3 years of experience
+            building reliable, user-focused systems in fast-paced product teams.
+            At Penn Entertainment and theScore, I worked on high-traffic iCasino
+            platforms—designing and maintaining an in-house CMS, building tools
+            that saved developers 50+ hours a year, and helping launch a
+            standalone casino app that reached #2 in its category. I enjoy
+            owning problems end to end, from scoping and implementation to
+            monitoring and on-call support during high-stakes events. My
+            technical background includes a Bachelor of Science in Computer
+            Science from York University and an Advanced Diploma in Computer
+            Engineering Technology from Seneca College. I work across the stack
+            with Python, Elixir, TypeScript, JavaScript, and SQL, and have
+            hands-on experience with tools like Node.js, React, PostgreSQL,
+            Kubernetes, Docker, and Datadog. I care about clear communication,
+            mentoring others, and building systems that make life easier for
+            both users and teammates. Outside of work, you’ll usually find me at
+            the gym, playing video games orshooting hoops.
           </Text>
         </Section>
 
@@ -118,8 +127,9 @@ const Main = () => {
                 <ListItem>Full Stack Development</ListItem>
                 <ListItem>Building Computers</ListItem>
                 <ListItem>Graphic Design</ListItem>
-                <ListItem>Video Edits</ListItem>
                 <ListItem>Camping</ListItem>
+                <ListItem>Hiking</ListItem>
+                <ListItem>Travelling</ListItem>
                 <ListItem>Basketball</ListItem>
                 <ListItem>Weight Lifting</ListItem>
               </UnorderedList>
@@ -129,7 +139,7 @@ const Main = () => {
             flexShrink={0}
             mt={{ base: 4, mt: 0 }}
             ml={{ md: 6 }}
-            align="center"
+            textAlign="center"
           >
             <a
               title="Click to play Squirrel Glider!"
@@ -145,11 +155,10 @@ const Main = () => {
                 maxWidth="500px"
                 width="auto"
                 height="auto"
-                display="incline-block"
+                display="inline-block"
                 src="coding.gif"
                 alt="coding gif"
-                layout="fixed"
-              ></Image>
+              />
             </a>
           </Box>
         </Box>
@@ -165,47 +174,55 @@ const Main = () => {
           >
             Familiar with the following:
           </Heading>
-          <Box display={{ md: "flex" }} flexwarp="wrap">
+          <Box display={{ md: "flex" }} flexWrap="wrap">
             <Box flexGrow={1}>
               <Heading as="h3" mt={2} size="sm" mb={4}>
                 Languages
               </Heading>
               <UnorderedList listStyleType={"none"}>
-                <ListItem>C, C++, C#</ListItem>
                 <ListItem>Python</ListItem>
                 <ListItem>Elixir</ListItem>
-                <ListItem>Java</ListItem>
-                <ListItem>JavaScript/TypeScript</ListItem>
-                <ListItem>CSS/HTML</ListItem>
+                <ListItem>TypeScript</ListItem>
+                <ListItem>JavaScript</ListItem>
                 <ListItem>SQL</ListItem>
+                <ListItem>C</ListItem>
+                <ListItem>C#</ListItem>
+                <ListItem>Java</ListItem>
               </UnorderedList>
             </Box>
             <Box flexGrow={1}>
               <Heading as="h3" mt={2} size="sm" mb={4}>
-                Technologies
+                Backend & Frontend
               </Heading>
               <UnorderedList listStyleType={"none"}>
-                <ListItem>Git</ListItem>
-                <ListItem>Redis</ListItem>
-                <ListItem>Docker</ListItem>
-                <ListItem>Kubernetes</ListItem>
-                <ListItem>Figma</ListItem>
-                <ListItem>Photoshop</ListItem>
-                <ListItem>Premiere Pro</ListItem>
-              </UnorderedList>
-            </Box>
-            <Box flexGrow={1}>
-              <Heading as="h3" mt={2} size="sm" mb={4}>
-                Frameworks/Libraries
-              </Heading>
-              <UnorderedList listStyleType={"none"}>
-                <ListItem>React</ListItem>
+                <ListItem>Node.js</ListItem>
                 <ListItem>Express</ListItem>
-                <ListItem>Next.JS</ListItem>
-                <ListItem>Node.JS</ListItem>
-                <ListItem>Phoenix Liveview</ListItem>
-                <ListItem>Chakra UI</ListItem>
-                <ListItem>ASP.NET</ListItem>
+                <ListItem>PostgreSQL</ListItem>
+                <ListItem>MySQL</ListItem>
+                <ListItem>MongoDB</ListItem>
+                <ListItem>Redis</ListItem>
+                <ListItem>GraphQL</ListItem>
+                <ListItem>gRPC</ListItem>
+                <ListItem>Kafka</ListItem>
+                <ListItem>Oban</ListItem>
+                <ListItem>React</ListItem>
+                <ListItem>Phoenix LiveView</ListItem>
+              </UnorderedList>
+            </Box>
+            <Box flexGrow={1}>
+              <Heading as="h3" mt={2} size="sm" mb={4}>
+                Monitoring & Tools
+              </Heading>
+              <UnorderedList listStyleType={"none"}>
+                <ListItem>Kubernetes</ListItem>
+                <ListItem>Docker</ListItem>
+                <ListItem>ArgoCD</ListItem>
+                <ListItem>GitHub Actions</ListItem>
+                <ListItem>CircleCI</ListItem>
+                <ListItem>Datadog</ListItem>
+                <ListItem>Splunk</ListItem>
+                <ListItem>Git</ListItem>
+                <ListItem>Atlassian</ListItem>
               </UnorderedList>
             </Box>
           </Box>
@@ -233,7 +250,6 @@ const Main = () => {
             textStyle="bold"
           >
             <GridItem
-              GridItem
               rowSpan={2}
               colSpan={1}
               textAlign="center"
@@ -255,7 +271,7 @@ const Main = () => {
               textColor={useColorModeValue("orange.600", "")}
               filter={useColorModeValue(
                 "drop-shadow(0 0 0.30rem DarkOrange)",
-                ""
+                "",
               )}
               textAlign="center"
               borderRadius={10}
@@ -274,7 +290,7 @@ const Main = () => {
               textColor={useColorModeValue("yellow.600", "")}
               filter={useColorModeValue(
                 "drop-shadow(0 0 0.30rem DarkGoldenRod)",
-                ""
+                "",
               )}
               textAlign="center"
               borderRadius={10}
