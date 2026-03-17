@@ -40,10 +40,9 @@ const Logo = () => {
     <LogoBox>
       <Image
         src={useColorModeValue("appleDark.png", "apple.png")}
-        layout='fixed'
         boxSize="35px"
         alt="logo"
-      ></Image>
+      />
       <Text
         color={useColorModeValue("gray.800", "whiteAlpha.900")}
         fontFamily="M PLUS Rounded 1c"
